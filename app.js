@@ -1,13 +1,14 @@
 //store weather img
 //sunny, rainy, clear, snow, haze, cloudy, mist, smoke, default
 const img = [
-  "https://github.com/AnnaSmith3110/openWeather-API/blob/main/sunny%20png.png?raw=true",
-  "https://github.com/AnnaSmith3110/openWeather-API/blob/main/rainy%20png.png?raw=true",
-  "https://github.com/AnnaSmith3110/openWeather-API/blob/main/clear%20png.png?raw=true",
-  "https://github.com/AnnaSmith3110/openWeather-API/blob/main/snow%20png.png?raw=true",
-  "https://github.com/AnnaSmith3110/openWeather-API/blob/main/haze%20png.png?raw=true",
-  "https://github.com/AnnaSmith3110/openWeather-API/blob/main/cloudy%20png.png?raw=true",
-"https://github.com/AnnaSmith3110/openWeather-API/blob/main/mist%20png.png?raw=true", "https://github.com/AnnaSmith3110/openWeather-API/blob/main/smoke%20png.png?raw=true", "" 
+  "https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/sunny%20png.png?raw=true",
+  "https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/rainy%20png.png?raw=true",
+  "https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/clear%20png.png?raw=true",
+  "https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/snow%20png.png?raw=true",
+  "https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/haze%20png.png?raw=true",
+  "https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/cloudy%20png.png?raw=true",
+"https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/mist%20png.png?raw=true", 
+  "https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/smoke%20png.png?raw=true", "" 
 ];
 //get vars
 const bg = document.querySelector(".app");
