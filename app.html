@@ -8,13 +8,44 @@
     <title>weather app - openWeather API</title>
   </head>
   <body>
-    <div class="app">
+   <div class="app">
   <input type="text" id="input" placeholder="enter city"/>
+  <div class="more">
+    <div class="close">
+      <ion-icon id="close" name="close-circle"></ion-icon>
+    </div>
+    <div class="rows">
+    <div class="box">
+      
+      <p id="feels-like">feels like</p>
+      <img src="https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/hot%20cold%20png.png?raw=true" id="icon">
+      
+    </div>
+     <div class="box">
+       
+       <p id="rain">rain</p>
+       <img src="https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/umbrella%20png.png?raw=true" id="icon">
+     </div>
+    </div>
+     <div class="rows">
+    <div class="box">
+      
+      <p id="wind-speed">wind</p>
+      <img src="https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/wind%20direction%20png.png?raw=true" id="icon">
+      
+    </div>
+     <div class="box">
+       
+       <p id="visibility">visibility</p>
+       <img src="https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/visibility%20png.png?raw=true" id="icon">
+     </div>
+    </div>
+  </div>
   <div class="description">
     <p id="desc"></p>
   </div>
   <div class="icon">
-    <img src ="https://github.com/AnnaSmith3110/openWeather-API/blob/main/sunny%20png.png?raw=true" id="weather-status-icon">
+    <img src ="https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/sunny%20png.png?raw=true" id="weather-status-icon">
   </div>
   <div class="temperature">
     <p>weather</p>
@@ -26,7 +57,7 @@
       <p>humidity</p>
       </div>
       <div class="row">
-        <img src= "https://github.com/AnnaSmith3110/openWeather-API/blob/main/drop%20png.png?raw=true" id="cube-img">
+        <img src= "https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/drop%20png.png?raw=true" id="cube-img">
       </div>
       <div class="row">
         <p1 id="humidity">humid</p1>
@@ -37,11 +68,14 @@
       <p>wind</p>
          </div>
        <div class="row">
-      <img src="https://github.com/AnnaSmith3110/openWeather-API/blob/main/wind%20png.png?raw=true" id="cube-img">
+      <img src="https://github.com/AnnaSmith3110/openWeatherAPI/blob/main/images/wind%20png.png?raw=true" id="cube-img">
       </div>
       <div class="row">
         <p1 id="wind">wind</p1>
       </div>
+    </div>
+    <div class="cube">
+      <ion-icon id="more" name="chevron-up"></ion-icon>
     </div>
   </div>
 </div>
